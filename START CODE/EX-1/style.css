@@ -1,0 +1,53 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+
+.box{
+    background: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+.green{
+    background-color: darkgreen;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.green:hover{
+    background-color: red;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+.orange{
+    background-color: orange;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.orange:hover{
+    background-color: red;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+.purple{
+    background-color: purple;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.purple:hover{
+    background-color: red;
+    color: white;
+    transition: background-color 0.2s;
+}

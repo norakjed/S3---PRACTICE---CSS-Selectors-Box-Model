@@ -1,0 +1,10 @@
+/* TODO */
+button{
+    background-color: pink;
+    border-radius: 30px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkmagenta;
+    transition: background-color 0.5s;
+}

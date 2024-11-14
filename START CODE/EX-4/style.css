@@ -1,0 +1,84 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Main card styling */
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Profile picture */
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #00aaff;
+}
+
+/* Name styling */
+.name {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Title styling */
+.title {
+    color: #777;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+/* Stats section */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.stat-number {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.stat-label {
+    font-size: 0.8em;
+    color: #777;
+}
+
+/* Bio text */
+.bio {
+    font-size: 0.9em;
+    color: #555;
+    margin: 15px 0;
+    padding: 0 10px;
+}
+
+
+/* Button styling */
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #00aaff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Inline CSS for button hover */
+.btn:hover {
+    background-color: #007acc;
+}
